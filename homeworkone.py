@@ -27,7 +27,7 @@ print ("Answer the questions below to play.")
 print ("-----------------------------------")
 
 # variables containing all of your story info
-discribleWord = raw_input("Enter an adjective: ")
+discribleWord = input("Enter an adjective: ")
 animal = input("What is your favorite animal?: ")
 country = input("Name a place: ")
 number = input("An number from your one to ten: ")
