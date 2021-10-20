@@ -65,8 +65,16 @@ function gotData() {
 
 function draw() {
     background(0,0,0);
-    //fill(latestData*2,latestData,latestData*2);
+    fill(latestData*2,latestData,latestData*2);
     text(latestData, 10, 10);
+
+
+    //option four
+    //background(205, 105, 94);
+    //rotateX(latestData * 0.01);
+    //rotateZ(latestData * 0.01);
+    //cylinder(20, 50);
+
     noStroke();
     //first option
   for (let i = 0; i < 50; i++) {
